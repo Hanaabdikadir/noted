@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f4ef;
+  color: #1b1714;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #8a3d2f;
+  box-shadow: 0 22px 40px rgba(138, 61, 47, 0.18);
+}
